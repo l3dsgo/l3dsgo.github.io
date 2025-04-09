@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L3DSGO | Custom 3D Prints</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+    .hero {
+      background-color: #e0e0e0;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+    .button {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      margin: 0.25rem;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #444;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .portfolio-item {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s;
+    }
+    .portfolio-item:hover {
+      transform: translateY(-3px);
+    }
+    .portfolio-item a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #1f1f1f;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #444;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      header, .hero, section {
+        padding: 1.5rem;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>L3DSGO</strong></div>
+    <nav>
+      <a href="#about">Over ons</a>
+      <a href="#creaties">Creaties & Oplossingen</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Custom 3D prints met karakter</h1>
+    <p>Van creatief idee tot tastbaar object. Wij brengen jouw unieke ontwerp tot leven met precisie, passie en 3D technologie.</p>
+    <a class="button" href="#creaties">Bekijk onze creaties</a>
+    <a class="button" href="#contact">Neem contact op</a>
+  </div>
+
+  <section id="about">
+    <h2>Over ons</h2>
+    <p>Wij zijn een kleine, gepassioneerde studio met een grote liefde voor ontwerp, techniek en tastbare creativiteit. Wat begon met een 3D printer op zolder, groeide uit tot een plek waar ideeën werkelijkheid worden – laagje voor laagje.</p>
+    <p>We bieden <strong>custom 3D print oplossingen</strong> voor iedereen die iets unieks wil. Of je nou een decoratief object zoekt, een prototype wil testen, of een gepersonaliseerd cadeau zoekt: wij helpen je het te realiseren.</p>
+    <p>We geloven in <strong>karaktervol design</strong>. Geen standaard werk, maar stukken met een verhaal – met oog voor detail en ruimte voor originaliteit.</p>
+  </section>
+
+  <section id="creaties">
+    <h2>Creaties & Oplossingen</h2>
+    <div class="portfolio-item">
+      <a href="projecten/stadskaart.html">
+        <h3>Miniatuur stadskaart</h3>
+        <p>Een stadskaart geprint in witte PLA met reliëf – perfect als wanddecoratie of uniek cadeau.</p>
+      </a>
+    </div>
+    <div class="portfolio-item">
+      <a href="projecten/trofee.html">
+        <h3>Custom trophy</h3>
+        <p>Een trofee voor een lokaal game-event, volledig ontworpen in eigen stijl met metallic afwerking.</p>
+      </a>
+    </div>
+    <div class="portfolio-item">
+      <a href="projecten/sierobject.html">
+        <h3>Sierobject geometrie</h3>
+        <p>Een speelse exploratie van vorm en evenwicht, geprint in glanzend zwart PETG.</p>
+      </a>
+    </div>
+    <div class="portfolio-item">
+      <a href="projecten/volvo-c303.html">
+        <h3>Volvo C303 schaalmodel</h3>
+        <p>Een op maat gemaakt schaalmodel van een zeldzaam voertuig, gerealiseerd met 3D-printtechnologie en bijzondere aandacht voor de details van de auto.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Heb je een idee, een uitdaging of gewoon een vraag? We horen graag van je!</p>
+    <form action="mailto:info@l3dsgo.nl" method="post" enctype="text/plain">
+      <input type="text" name="naam" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="bericht" rows="5" placeholder="Je bericht..." required></textarea>
+      <input type="submit" value="Verstuur">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 L3DSGO | 3D printed in NL | <a href="https://www.l3dsgo.nl" style="color: #ccc; text-decoration: none;">www.l3dsgo.nl</a></p>
+  </footer>
+</body>
+</html>
